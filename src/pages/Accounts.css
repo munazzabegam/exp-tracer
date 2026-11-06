@@ -1,0 +1,54 @@
+.accounts-page {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .accounts-summary {
+    padding: 26px;
+  }
+  
+  .accounts-summary h2 {
+    font-size: 30px;
+    margin: 12px 0 6px;
+  }
+  
+  .accounts-summary p {
+    color: var(--muted);
+    font-size: 13px;
+  }
+  
+  .accounts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 18px;
+  }
+  
+  .account-card {
+    padding: 22px;
+  }
+  
+  .account-card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 22px;
+  }
+  
+  .account-icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 12px;
+    display: grid;
+    place-items: center;
+  }
+  
+  .account-card h3 {
+    margin: 0 0 18px;
+    font-size: 17px;
+  }
+  
+  .account-card h2 {
+    font-size: 24px;
+    margin: 8px 0 0;
+  }
+  

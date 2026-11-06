@@ -1,0 +1,60 @@
+.credit-cards-page {
+    display: grid;
+    gap: 18px;
+  }
+  
+  .credit-cards-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+  }
+  
+  .credit-cards-summary h2 {
+    font: 700 30px Manrope;
+    margin: 12px 0 6px;
+  }
+  
+  .credit-cards-summary p {
+    color: var(--muted, #829188);
+    font-size: 12px;
+  }
+  
+  .credit-cards-empty {
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 12px;
+  }
+  
+  .credit-card-empty-icon {
+    width: 58px;
+    height: 58px;
+    display: grid;
+    place-items: center;
+    border-radius: 15px;
+    background: #25333b;
+    color: #8cc7e8;
+  }
+  
+  .credit-cards-empty h3 {
+    font: 600 16px Manrope;
+  }
+  
+  .credit-cards-empty p {
+    max-width: 360px;
+    font-size: 12px;
+    line-height: 1.7;
+    color: #829188;
+  }
+  
+  @media (max-width: 600px) {
+    .credit-cards-summary {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+  }
+  
